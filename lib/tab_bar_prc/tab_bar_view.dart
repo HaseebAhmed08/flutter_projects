@@ -15,7 +15,7 @@ class _CustumTabBarState extends State<CustumTabBar> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 4, child: Scaffold(
+      length: 3, child: Scaffold(
             appBar: custumAppBar(),
            body: TabBarView(children: [
             ListView_work(),Center(child: Container(child: Text('Empty status',style: TextStyle(fontSize: 25),),)),
