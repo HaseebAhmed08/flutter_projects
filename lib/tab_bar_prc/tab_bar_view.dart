@@ -21,7 +21,7 @@ class _CustumTabBarState extends State<CustumTabBar> {
             ListView_work(),Center(child: Container(child: Text('Empty status',style: TextStyle(fontSize: 25),),)),
             Center(child: Container(child: Text('Empty Calls',style: TextStyle(fontSize: 25),))),Container()
            ]),
-    floatingActionButton: FloatingActionButton(onPressed: (){},child: Icon(Icons.camera_alt),),)
+    floatingActionButton: FloatingActionButton(onPressed: (){},child: Icon(Icons.camera_alt,color:Colors.white,),backgroundColor: Color(0xff128c7e),),)
     
     );
   }
